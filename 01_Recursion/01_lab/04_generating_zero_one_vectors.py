@@ -1,4 +1,5 @@
 
+
 def generating_zero_one_vectors(index, vector):
     if index >= len(vector):
         print(*vector, sep='')
