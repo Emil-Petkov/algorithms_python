@@ -1,4 +1,3 @@
-
 def fibonacci(num):
     num_one = 1
     num_two = 1
