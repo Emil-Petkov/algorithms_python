@@ -1,3 +1,21 @@
+def fibonacci(num: int):
+    if num == 0:
+        return 0
+
+    elif num == 1:
+        return 1
+
+    else:
+        return fibonacci(num - 1) + fibonacci(num - 2)
+
+
+number = int(input())
+print(fibonacci(number))
+
+
+########################################################################
+
+
 def fibonacci(num):
     num_one = 1
     num_two = 1
